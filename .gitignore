@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+*.db
+*.pdb
+
+Auth.cpp
+Auth.h
