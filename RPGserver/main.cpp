@@ -11,22 +11,6 @@
 
 void main()
 {
-	//MinNetCache::SetComponentCache("P2PTestRoomManager", [](MinNetGameObject * object) 
-	//{
-	//	object->isSyncingObject = false;
-	//	object->AddComponent<p2pGroupManager>();
-	//});
-
-	//MinNetCache::SetComponentCache("DataBaseIOTestObject", [](MinNetGameObject * object) 
-	//{
-	//	object->AddComponent<IOcomponent>();
-	//});
-
-	//MinNetCache::SetRoomCache("Main", [](MinNetRoom * room, MinNetPacket * packet) 
-	//{
-	//	room->Instantiate("P2PTestRoomManager");
-	//});
-
 	MinNetCache::SetComponentCache("Knight", [](MinNetGameObject * object) 
 	{
 
