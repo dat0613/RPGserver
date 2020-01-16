@@ -147,11 +147,15 @@
     <ClCompile Include="Auth.cpp" />
     <ClCompile Include="IOcomponent.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MinNetAnimator.cpp" />
+    <ClCompile Include="MinNetTransform.cpp" />
     <ClCompile Include="p2pGroupManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Auth.h" />
     <ClInclude Include="IOcomponent.h" />
+    <ClInclude Include="MinNetAnimator.h" />
+    <ClInclude Include="MinNetTransform.h" />
     <ClInclude Include="p2pGroupManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

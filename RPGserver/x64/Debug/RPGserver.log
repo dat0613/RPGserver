@@ -1,11 +1,8 @@
-﻿  main.cpp
+﻿  MinNetTransform.cpp
 c:\users\asus\documents\github\minnetiocp\minnetiocp\minnettime.h(20): warning C4091: 'static ': 변수를 선언하지 않으면 'MinNetTime' 왼쪽은 무시됩니다.
 c:\users\asus\documents\github\minnetiocp\minnetiocp\minnet.h(87): warning C4091: 'static ': 변수를 선언하지 않으면 'BitConverter' 왼쪽은 무시됩니다.
 c:\users\asus\documents\github\minnetiocp\minnetiocp\minnet.h(99): warning C4091: 'static ': 변수를 선언하지 않으면 'StringConverter' 왼쪽은 무시됩니다.
-c:\users\asus\documents\github\minnetiocp\minnetiocp\minnetiocp.h(116): warning C4091: 'static ': 변수를 선언하지 않으면 'MinNetIOCP' 왼쪽은 무시됩니다.
-c:\users\asus\documents\github\minnetiocp\minnetiocp\minnetcache.h(39): warning C4091: 'static ': 변수를 선언하지 않으면 'MinNetCache' 왼쪽은 무시됩니다.
-c:\users\asus\documents\github\minnetiocp\minnetiocp\minnetmysql.h(54): warning C4091: 'static ': 변수를 선언하지 않으면 'MinNetMySQL' 왼쪽은 무시됩니다.
-c:\users\asus\documents\rpgserver\rpgserver\auth.h(13): warning C4091: 'static ': 변수를 선언하지 않으면 'Auth' 왼쪽은 무시됩니다.
 c:\users\asus\documents\github\minnetiocp\minnetiocp\minnetpool.h(26): warning C4091: 'static ': 변수를 선언하지 않으면 'MinNetPool' 왼쪽은 무시됩니다.
+c:\users\asus\documents\github\minnetiocp\minnetiocp\debug.h(23): warning C4091: 'static ': 변수를 선언하지 않으면 'Debug' 왼쪽은 무시됩니다.
   RPGserver.vcxproj -> C:\Users\ASUS\Documents\RPGserver\RPGserver\x64\Debug\RPGserver.exe
   RPGserver.vcxproj -> C:\Users\ASUS\Documents\RPGserver\RPGserver\x64\Debug\RPGserver.pdb (Full PDB)
