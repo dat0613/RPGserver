@@ -74,8 +74,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\ASUS\Desktop\boost\boost_1_71_0;C:\Users\ASUS\Documents\GitHub\MinNetIOCP\MinNetIOCP;C:\Users\ASUS\Desktop\MySQL\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\ASUS\Desktop\boost\boost_1_71_0\x64\stage\lib;C:\Users\ASUS\Documents\GitHub\MinNetIOCP\MinNetIOCP\x64\Debug;C:\Users\ASUS\Desktop\MySQL\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\ASUS\Desktop\boost\boost_1_71_0;C:\Users\ASUS\Documents\GitHub\MinNetIOCP\MinNetIOCP;C:\Users\ASUS\Desktop\MySQL\include;C:\Users\ASUS\Desktop\recastnavigation-master\Detour\Include;C:\Users\ASUS\Desktop\recastnavigation-master\Recast\Include;C:\Users\ASUS\Desktop\recastnavigation-master\DetourCrowd\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\ASUS\Desktop\boost\boost_1_71_0\x64\stage\lib;C:\Users\ASUS\Documents\GitHub\MinNetIOCP\MinNetIOCP\x64\Debug;C:\Users\ASUS\Desktop\MySQL\lib;C:\Users\ASUS\Desktop\펑펑펑\recastnavigation-master\RecastDemo\Build\vs2015\lib\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -147,15 +147,13 @@
     <ClCompile Include="Auth.cpp" />
     <ClCompile Include="IOcomponent.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MinNetAnimator.cpp" />
-    <ClCompile Include="MinNetTransform.cpp" />
+    <ClCompile Include="Monster.cpp" />
     <ClCompile Include="p2pGroupManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Auth.h" />
     <ClInclude Include="IOcomponent.h" />
-    <ClInclude Include="MinNetAnimator.h" />
-    <ClInclude Include="MinNetTransform.h" />
+    <ClInclude Include="Monster.h" />
     <ClInclude Include="p2pGroupManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
