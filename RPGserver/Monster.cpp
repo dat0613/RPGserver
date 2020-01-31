@@ -1,6 +1,6 @@
 #include "Monster.h"
 #include "Debug.h"
-
+#include <MinNetMath.h>
 
 void Monster::Awake()
 {
@@ -9,12 +9,14 @@ void Monster::Awake()
 
 void Monster::Update()
 {
-	//Debug::Log(gameObject->position);
-	auto player = gameObject->GetNowRoom()->GetGameObject("Knight");
-	if (player == nullptr || navAgent == nullptr) return;
+	auto player = gameObject->GetNowRoom()->GetGameObjects("Knight");
+	if (player.size() < 1 || navAgent == nullptr) return;
 
 	navAgent->SetDestination(player->position);
 
+	auto velocity = navAgent->velocity;
+
+	gameObject->rotation.y = atan2(velocity.x, velocity.z) * MinNetMath::Rad2Deg;
 }
 
 Monster::Monster()

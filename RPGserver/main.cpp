@@ -29,14 +29,19 @@ void main()
 		auto nav = object->AddComponent<MinNetNavMeshAgent>();
 		//nav->halfExtends.y = 10.0f;
 		nav->SetDefaultParameter();
-		nav->addtion.y = -0.5f;
+		nav->agentParams.maxAcceleration = 10.0f;
+		nav->agentParams.maxSpeed = 3.0f;
+		//nav->addtion.y = -0.5f;
 		//nav->agentParams.height = 100.0f;
 	});
 
 	MinNetPrefab::SetRoomPrefab("Main", [](MinNetRoom * room, MinNetPacket * packet)
 	{
-		MinNetPrefab::SetNavMeshPrefab(room, "MapMesh.bin");
-		room->Instantiate("BoximonRed", Vector3(95.0f, 22.0f, 35.0f), Vector3::zero);
+		MinNetPrefab::SetNavMeshPrefab(room, "MapMesh2.bin");
+		room->Instantiate("BoximonRed", Vector3(95.0f, 21.6f, 35.0f), Vector3::zero);
+		
+		//MinNetPrefab::SetNavMeshPrefab(room, "PlaneMesh.bin");
+		//room->Instantiate("BoximonRed", Vector3::zero, Vector3::zero);
 	});
 
 	MinNetIOCP::SetTickrate(20);
